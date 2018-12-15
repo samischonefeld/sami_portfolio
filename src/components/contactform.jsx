@@ -8,7 +8,7 @@ class ContactForm extends Component{
         method = "POST"
         >
           <h2 className = "form_title"> GET IN TOUCH </h2>
-          <div className = "forminput">
+          <div className = "form_input">
             <label>NAME</label>
             <input
               name = "name"
@@ -16,7 +16,7 @@ class ContactForm extends Component{
               placeholder = "sporty spice">
             </input>
           </div>
-          <div className = "forminput">
+          <div className = "form_input">
             <label>EMAIL</label>
             <input
               name = "email"
@@ -24,10 +24,9 @@ class ContactForm extends Component{
               placeholder = "spicegirls123@sportyspice.com">
             </input>
           </div>
-          <div className = "forminput">
+          <div className = "form_input">
             <label>MESSAGE</label>
             <input
-              className = "messageinput"
               name = "message"
               type = "text"
               placeholder = "tell me something good...">

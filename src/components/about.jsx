@@ -18,13 +18,13 @@ function About() {
     <section className = "contact_wrapper">
       <div className = "links_container">
         <a href = "https://github.com/samischonefeld">
-          <div className = "link_content">
+          <div className = "link">
             <img className = "link_img" src = "https://i.imgur.com/BZ8FiA6.png" alt="link" />
             <p>GITHUB</p>
           </div>
         </a>
         <a href = "https://www.linkedin.com/in/samischonefeld/">
-          <div className = "link_content">
+          <div className = "link">
             <img className ="link_img" src = "https://i.imgur.com/s06MdpK.png" alt="link"/>
             <p>LINKEDIN</p>
           </div>
@@ -36,7 +36,7 @@ function About() {
           </div>
         </a>
         <a href = "https://www.instagram.com/sami_pearl/">
-          <div className = "link_content">
+          <div className = "link">
             <img className ="link_img" src = "https://i.imgur.com/Qy8JjS6.png" alt="link"/>
             <p>INSTAGRAM</p>
           </div>
