@@ -1,9 +1,12 @@
 import React from 'react';
-import ContactForm from './contactform.jsx'
+import ContactForm from './contactform.jsx';
+import HeaderAbout from './header_about.jsx';
+import Footer from './footer.jsx';
 
 function About() {
   return(
     <div>
+    <HeaderAbout />
     <h1> ABOUT </h1>
     <section className = "intro">
       <div className = "intro_text">
@@ -44,6 +47,7 @@ function About() {
       </div>
       <ContactForm />
     </section>
+    <Footer />
     </div>
     )
 }

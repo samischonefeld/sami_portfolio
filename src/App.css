@@ -14,6 +14,10 @@ h2 {
   letter-spacing: 5px;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*ABOUT*/
 
 .intro{
@@ -94,8 +98,6 @@ input {
 .form_input {
   padding: 10px;
 }
-
-
 
 
 
