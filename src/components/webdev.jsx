@@ -6,7 +6,7 @@ function WebDev() {
   return (
     <div>
     <HeaderWebDev />
-   <h1> WEB DEVELOPMENT WORK </h1>
+   <h1> WEB DEVELOPMENT </h1>
 
    <section>
     <div>
