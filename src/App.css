@@ -32,7 +32,7 @@ a {
 .intro_title{
   color: #87596e;
 }
-.intro_paragraph{
+.paragraph{
   font-size: 20px;
   letter-spacing: 3px;
   line-height: 35px;
@@ -98,6 +98,93 @@ input {
 .form_input {
   padding: 10px;
 }
+
+/*WEBDEV*/
+.mouseattack{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  padding-top: 25px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.image_container{
+  width: 50%;
+}
+.mouse_image{
+  height: 300px;
+  padding-top: 70px;
+}
+.description{
+  width: 50%;
+  padding: 20px;
+}
+.description2{
+  width: 55%;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.left_p{
+  text-align:right;
+}
+.header{
+  color: #87596e;
+}
+.play{
+  font-size: 20px;
+  color: #87596e;
+}
+.sketch{
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 0px;
+  padding-bottom: 100px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.comingsoon{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.sketchimage{
+  height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

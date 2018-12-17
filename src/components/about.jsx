@@ -11,7 +11,7 @@ function About() {
     <section className = "intro">
       <div className = "intro_text">
         <h2 className = "intro_title"> HI, I'M SAMI! </h2>
-        <p className = "intro_paragraph">
+        <p className = "paragraph">
           I’m a web developer whose previous experience as a marketer inspired me to build amazing websites that create real ROI.
           Synergizing marketing, project management, web development, and design I want to find my niche turning good ideas into amazing websites and apps.
         </p>
