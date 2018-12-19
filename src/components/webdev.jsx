@@ -45,7 +45,7 @@ function WebDev() {
   <section className = "comingsoon">
     <div className = "image_container">
       <img
-      className = ""
+      className = "comingsoonimage"
       src = "https://i.imgur.com/YnRRv2n.jpg"
       alt = "comingsoon"
       />
