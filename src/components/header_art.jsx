@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function HeaderWebDev(){
+function HeaderArt(){
   return(
       <div>
       <nav>
         <div className = "nav_link"><Link to = "/" style={{ color: 'white' }}> HOME </Link></div>
-        <div className = "nav_link"><Link to = "/art" style={{ color: 'white' }}> ART </Link></div>
+        <div className = "nav_link"><Link to = "/webdev" style={{ color: 'white' }}> WEB DEV </Link></div>
         <div className = "nav_link"><Link to = "/about" style={{ color: 'white' }}> ABOUT </Link></div>
       </nav>
       <img
@@ -18,4 +18,4 @@ function HeaderWebDev(){
     )
 }
 
-export default HeaderWebDev;
+export default HeaderArt;

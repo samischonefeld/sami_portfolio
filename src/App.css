@@ -288,11 +288,18 @@ footer {
   background-color: #87596e;
   color: white;
   margin-top: 25px;
-  height: 100px;
+  height: 75px;
 }
-
-
-
+.footer_links{
+padding: 10px;
+}
+.footer_all{
+  display: flex;
+  justify-content: space-between;
+}
+.home_link{
+  padding-right: 10px;
+}
 
 
 

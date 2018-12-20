@@ -12,42 +12,42 @@ class Home extends Component  {
         <div className = "card_container">
 
           <div className = "card">
+          <Link to = "/art">
             <div>
-              <h2 className = "card_header">
-                <Link to = "/webdev" style={{ color: '#87596e' }}> ART </Link>
-              </h2>
+              <h2 className = "card_header"> ART </h2>
+            </div>
+            <img
+            className = "card_image"
+            src = "https://i.imgur.com/YPGOEq4.jpg"
+            alt = "art"
+            />
+          </Link>
+          </div>
+
+          <div className = "card">
+          <Link to = "/webdev">
+            <div>
+              <h2 className = "card_header"> WEB DEV </h2>
             </div>
             <img
             className = "card_image"
             src = "https://i.imgur.com/pgrCxES.jpg"
             alt = "art"
             />
+          </Link>
           </div>
 
           <div className = "card">
+          <Link to = "/about">
             <div>
-              <h2 className = "card_header">
-                <Link to = "/webdev" style={{ color: '#87596e' }}> WEB DEV </Link>
-              </h2>
-            </div>
-            <img
-            className = "card_image"
-            src = "https://i.imgur.com/YPGOEq4.jpg"
-            alt = "webdev"
-            />
-          </div>
-
-          <div className = "card">
-            <div>
-              <h2 className = "card_header">
-                <Link to = "/webdev" style={{ color: '#87596e' }}> ABOUT </Link>
-              </h2>
+              <h2 className = "card_header"> ABOUT </h2>
             </div>
             <img
             className = "card_image"
             src = "https://i.imgur.com/PKkLMzv.jpg"
-            alt = "about"
+            alt = "art"
             />
+          </Link>
           </div>
 
         </div>
