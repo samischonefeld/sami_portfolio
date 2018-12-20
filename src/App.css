@@ -25,22 +25,27 @@ a {
   justify-content: center;
   padding: 50px;
 }
+
 .intro_text{
   width: 50%;
   padding-right: 25px;
 }
+
 .intro_title{
   color: #87596e;
 }
+
 .paragraph{
   font-size: 20px;
   letter-spacing: 3px;
   line-height: 35px;
 }
+
 .profpic{
   height: 300px;
   padding-left: 25px;
 }
+
 .link > p {
   position: relative;
   bottom: 10px;
@@ -48,13 +53,16 @@ a {
   letter-spacing:2px;
   color: #87596e;
 }
+
 .link {
   display: flex;
   padding: 10px;
 }
+
 .link_img {
   height: 30px;
 }
+
 .links_container{
  padding-left: 200px;
 }
@@ -63,7 +71,9 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
 /*CONTACT FORM*/
+
 form {
   display: flex;
   align-items: flex-end;
@@ -74,9 +84,11 @@ form {
   right: 200px;
   bottom: 20px;
 }
+
 .form_title{
   color: #87596e;
 }
+
 button {
   position: relative;
   top: 10px;
@@ -87,19 +99,23 @@ button {
   color: white;
   font-size: 20px;
 }
+
 label {
   letter-spacing:2px;
   padding-right: 15px;
 }
+
 input {
   height: 22px;
   width: 270px;
 }
+
 .form_input {
   padding: 10px;
 }
 
 /*WEBDEV*/
+
 .mouseattack{
   display: flex;
   justify-content: space-between;
@@ -108,17 +124,21 @@ input {
   margin-left: 75px;
   margin-right: 75px;
 }
+
 .image_container{
   width: 50%;
 }
+
 .mouse_image{
   height: 300px;
   padding-top: 70px;
 }
+
 .description{
   width: 50%;
   padding: 20px;
 }
+
 .description2{
   width: 55%;
   padding-right: 40px;
@@ -126,16 +146,20 @@ input {
   flex-direction: column;
   align-items: flex-end;
 }
+
 .left_p{
   text-align:right;
 }
+
 .header{
   color: #87596e;
 }
+
 .play{
   font-size: 20px;
   color: #87596e;
 }
+
 .sketch{
   display: flex;
   justify-content: flex-end;
@@ -146,6 +170,7 @@ input {
   margin-left: 75px;
   margin-right: 75px;
 }
+
 .comingsoon{
   display: flex;
   justify-content: space-between;
@@ -156,6 +181,7 @@ input {
   margin-left: 75px;
   margin-right: 75px;
 }
+
 .sketchimage{
   height: 400px;
 }
@@ -164,21 +190,76 @@ input {
   height: 300px;
 }
 
+/*ART*/
 
+.art{
+  display: inline;
+  position: relative;
+  left: 25%;
+}
 
+aside {
+  overflow: scroll;
+  width: 50%;
+  line-height: 0;
+  column-count: 3;
+  column-gap: 5px;
+  padding-right: 10px;
+}
 
+.thumbnail_img {
+  max-width: 100% !important;
+  height: auto !important;
+  padding: 5px;
+}
 
+.container {
+  display: flex;
+}
 
+.feature {
+  position: fixed;
+  right: 100px;
+  bottom: 0px;
+  margin: 0 auto;
+  width: 450px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 5px;
+}
 
+.feature_img {
+  margin: 0 auto;
+  max-width: 90%;
+}
 
+/*HOME*/
 
+.card_container{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
 
+.card{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 350px;
+}
 
+.card_header{
+  font-size: 18px;
+  color: #87596e;
+}
 
-
-
-
-
+.card_image{
+  height: 350px;
+}
 
 
 
