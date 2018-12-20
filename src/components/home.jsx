@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import HeaderHome from './header_home.jsx';
+import FooterHome from './footer_home.jsx';
 
 class Home extends Component  {
   render(){
     return(
       <div>
+      <HeaderHome />
         <h1> SAMI SCHONEFELD </h1>
         <div className = "card_container">
 
           <div className = "card">
             <div>
               <h2 className = "card_header">
-                <Link to = "/webdev"> ART </Link>
+                <Link to = "/webdev" style={{ color: '#87596e' }}> ART </Link>
               </h2>
             </div>
             <img
@@ -24,7 +27,7 @@ class Home extends Component  {
           <div className = "card">
             <div>
               <h2 className = "card_header">
-                <Link to = "/webdev"> WEB DEV </Link>
+                <Link to = "/webdev" style={{ color: '#87596e' }}> WEB DEV </Link>
               </h2>
             </div>
             <img
@@ -37,7 +40,7 @@ class Home extends Component  {
           <div className = "card">
             <div>
               <h2 className = "card_header">
-                <Link to = "/webdev"> ABOUT </Link>
+                <Link to = "/webdev" style={{ color: '#87596e' }}> ABOUT </Link>
               </h2>
             </div>
             <img
@@ -48,6 +51,7 @@ class Home extends Component  {
           </div>
 
         </div>
+        <FooterHome />
       </div>
     )
   }

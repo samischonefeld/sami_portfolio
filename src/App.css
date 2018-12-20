@@ -261,10 +261,35 @@ aside {
   height: 350px;
 }
 
+/*NAVIGATION*/
 
+nav {
+  background-color: #87596e;
+  align-items: center;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: 5px;
+}
+.nav_link{
+  color: white;
+  font-size: 20px;
+}
 
+.hero1 {
+  height: 150px;
+  width: 100%;
+}
 
-
+/*FOOTER*/
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #87596e;
+  color: white;
+  margin-top: 25px;
+  height: 100px;
+}
 
 
 
