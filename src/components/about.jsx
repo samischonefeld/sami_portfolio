@@ -9,7 +9,7 @@ function About() {
     <HeaderAbout />
     <h1> ABOUT </h1>
     <section className = "intro">
-      <div className = "intro_text">
+      <div className = "intro_text intro_query">
         <h2 className = "intro_title"> HI, I'M SAMI! </h2>
         <p className = "paragraph">
           I’m a web developer whose previous experience as a marketer inspired me to build amazing websites that create real ROI.
@@ -28,13 +28,13 @@ function About() {
         </a>
         <a href = "https://www.linkedin.com/in/samischonefeld/">
           <div className = "link">
-            <img className ="link_img" src = "https://i.imgur.com/s06MdpK.png" alt="link"/>
+            <img className ="link_img" src = "https://i.imgur.com/OeOlxQl.png" alt="link"/>
             <p>LINKEDIN</p>
           </div>
         </a>
         <a href = "https://www.facebook.com/sami.schonefeld">
           <div className = "link">
-            <img className ="link_img" src = "https://i.imgur.com/oZDGyyA.png" alt="link"/>
+            <img className ="link_img" src = "https://i.imgur.com/XVbet5s.png" alt="link"/>
             <p>FACEBOOK</p>
           </div>
         </a>

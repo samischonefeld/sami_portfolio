@@ -19,6 +19,26 @@ a {
 }
 
 /*ABOUT*/
+@media only screen and (max-width : 405px){
+  .intro_text{
+    width: 100%;
+  }
+  .intro{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .paragraph{
+    width: 100%;
+  }
+  .contact_wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .links_container{
+    padding-left: 50px;
+  }
+}
 
 .intro{
   display: flex;
@@ -71,6 +91,8 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
+
 
 /*CONTACT FORM*/
 
