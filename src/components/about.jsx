@@ -20,32 +20,34 @@ function About() {
     </section>
     <section className = "contact_wrapper">
       <div className = "links_container">
-        <a href = "https://github.com/samischonefeld">
+        <a className = "social_link" href = "https://github.com/samischonefeld">
           <div className = "link">
             <img className = "link_img" src = "https://i.imgur.com/BZ8FiA6.png" alt="link" />
             <p>GITHUB</p>
           </div>
         </a>
-        <a href = "https://www.linkedin.com/in/samischonefeld/">
+        <a className = "social_link" href = "https://www.linkedin.com/in/samischonefeld/">
           <div className = "link">
             <img className ="link_img" src = "https://i.imgur.com/OeOlxQl.png" alt="link"/>
             <p>LINKEDIN</p>
           </div>
         </a>
-        <a href = "https://www.facebook.com/sami.schonefeld">
+        <a className = "social_link" href = "https://www.facebook.com/sami.schonefeld">
           <div className = "link">
             <img className ="link_img" src = "https://i.imgur.com/XVbet5s.png" alt="link"/>
             <p>FACEBOOK</p>
           </div>
         </a>
-        <a href = "https://www.instagram.com/sami_pearl/">
+        <a className = "social_link" href = "https://www.instagram.com/sami_pearl/">
           <div className = "link">
             <img className ="link_img" src = "https://i.imgur.com/Qy8JjS6.png" alt="link"/>
             <p>INSTAGRAM</p>
           </div>
         </a>
       </div>
+      <div>
       <ContactForm />
+      </div>
     </section>
     <Footer />
     </div>

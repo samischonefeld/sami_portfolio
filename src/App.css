@@ -19,25 +19,10 @@ a {
 }
 
 /*ABOUT*/
-@media only screen and (max-width : 405px){
-  .intro_text{
-    width: 100%;
-  }
-  .intro{
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-  }
-  .paragraph{
-    width: 100%;
-  }
-  .contact_wrapper{
-    display: flex;
-    flex-direction: column;
-  }
-  .links_container{
-    padding-left: 50px;
-  }
+
+
+.intro_title{
+  color: #87596e;
 }
 
 .intro{
@@ -46,24 +31,14 @@ a {
   padding: 50px;
 }
 
-.intro_text{
-  width: 50%;
-  padding-right: 25px;
+.profpic{
+  height: 300px;
+  padding-left: 20px;
 }
-
-.intro_title{
-  color: #87596e;
-}
-
 .paragraph{
   font-size: 20px;
   letter-spacing: 3px;
   line-height: 35px;
-}
-
-.profpic{
-  height: 300px;
-  padding-left: 25px;
 }
 
 .link > p {
@@ -82,17 +57,62 @@ a {
 .link_img {
   height: 30px;
 }
-
 .links_container{
  padding-left: 200px;
+}
+
+/*.intro_text{
+  width: 50%;
+  padding-right: 25px;
 }
 
 .contact_wrapper{
   display: flex;
   justify-content: space-between;
 }
-
-
+*/
+@media only screen and (max-width : 420px){
+  .intro_text{
+    width: 100%;
+  }
+  .intro{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .paragraph{
+    width: 100%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 25px;
+  }
+  .links_container{
+    padding-left: 90px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .profpic{
+  height: 250px;
+  }
+  .link_img {
+   height: 50px;
+  }
+  form{
+    position: relative;
+    left: 200px;
+  }
+  input {
+    width: 175px;
+  }
+  .link > p{
+    visibility: hidden;
+  }
+  .social_link{
+    width: 50%;
+  }
+}
 
 /*CONTACT FORM*/
 
@@ -127,10 +147,10 @@ label {
   padding-right: 15px;
 }
 
-input {
+/*input {
   height: 22px;
   width: 270px;
-}
+}*/
 
 .form_input {
   padding: 10px;
