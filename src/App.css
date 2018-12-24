@@ -61,7 +61,7 @@ a {
  padding-left: 200px;
 }
 
-/*.intro_text{
+.intro_text{
   width: 50%;
   padding-right: 25px;
 }
@@ -70,7 +70,7 @@ a {
   display: flex;
   justify-content: space-between;
 }
-*/
+
 @media only screen and (max-width : 420px){
   .intro_text{
     width: 100%;
@@ -112,6 +112,10 @@ a {
   .social_link{
     width: 50%;
   }
+  .contact_wrapper{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /*CONTACT FORM*/
@@ -120,11 +124,8 @@ form {
   display: flex;
   align-items: flex-end;
   flex-direction: column;
-  width: 40%;
   font-size: 20px;
-  position: relative;
-  right: 200px;
-  bottom: 20px;
+  margin-right: 200px;
 }
 
 .form_title{
@@ -147,10 +148,10 @@ label {
   padding-right: 15px;
 }
 
-/*input {
+input {
   height: 22px;
   width: 270px;
-}*/
+}
 
 .form_input {
   padding: 10px;
