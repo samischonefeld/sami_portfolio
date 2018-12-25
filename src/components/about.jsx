@@ -16,7 +16,9 @@ function About() {
           Synergizing marketing, project management, web development, and design I want to find my niche turning good ideas into amazing websites and apps.
         </p>
       </div>
+      <div className = "profpic_container">
       <img className = "profpic" src = "https://i.imgur.com/dFiOKuq.jpg" alt = "profpic"/>
+      </div>
     </section>
     <section className = "contact_wrapper">
       <div className = "links_container">

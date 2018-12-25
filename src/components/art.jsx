@@ -31,12 +31,14 @@ class Art extends Component {
     return(
       <div>
         <HeaderArt />
+        <div className = "art_header">
       <h1 className = "art">Art</h1>
+        </div>
       <main className = "container">
+        <ArtFeature current = {this.state.current} />
         <aside clasName = "thumbnail_container">
           {allArtwork}
         </aside>
-        <ArtFeature current = {this.state.current} />
       </main>
       <Footer />
       </div>

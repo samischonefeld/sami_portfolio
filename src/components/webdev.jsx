@@ -8,7 +8,7 @@ function WebDev() {
     <HeaderWebDev />
    <h1> WEB DEVELOPMENT </h1>
 
-   <section className = "mouseattack">
+   <section className = "mediaquery_webdev mouseattack">
     <div className = "image_container">
       <img className = "mouse_image"
         src = "https://i.imgur.com/Yi1B45j.png"
@@ -24,7 +24,7 @@ function WebDev() {
     </div>
   </section>
 
-   <section className = "sketch">
+   <section className = "mediaquery_webdev sketch">
     <div className = "description2">
       <h2 h2 className = "header"> SKETCH WIREFRAMES </h2>
       <p className = "paragraph left_p">Take a look at the process that went behind building this website.
@@ -42,8 +42,8 @@ function WebDev() {
     </div>
   </section>
 
-  <section className = "comingsoon">
-    <div className = "image_container">
+  <section className = "mediaquery_webdev comingsoon">
+    <div className = "comingsoon_image image_container">
       <img
       className = "comingsoonimage"
       src = "https://i.imgur.com/YnRRv2n.jpg"
