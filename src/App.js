@@ -13,7 +13,7 @@ class App extends Component {
   }
 
 componentDidMount(){
-d3.csv("https://accesscontrolalloworiginall.herokuapp.com/https://raw.git.generalassemb.ly/samischonefeld/schonefeld_portfolio_p2/master/art_work_Sheet1.csv")
+d3.csv("https://accesscontrolalloworiginall.herokuapp.com/https://raw.github.com/samischonefeld/sami_portfolio/master/art_work_Sheet1.csv")
   .then(
     data => {
       this.setState(prevState => ({
